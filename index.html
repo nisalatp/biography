@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home - Nisala Aloka Bandara Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-dark navbar-custom sticky-top">
+    <div class="container">
+      <a class="navbar-brand navbar-brand-custom fw-bold text-gradient" href="index.html">Nisala Aloka Bandara</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto align-items-center">
+          <li class="nav-item">
+            <a class="nav-link nav-link-custom active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link nav-link-custom" href="about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link nav-link-custom" href="contact.html">Contact</a>
+          </li>
+          <li class="nav-item ms-lg-3">
+            <button class="theme-toggle-btn" id="themeToggle" title="Toggle Theme">☀️</button>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container my-4">
+    <div class="glass-panel hero-card p-5 mb-4 rounded-4">
+      <div class="row align-items-center g-4">
+        <div class="col-lg-7">
+          <div class="status-indicator mb-3">
+            <span class="status-dot"></span>
+            Azure App Service: Active
+          </div>
+          <h1 class="display-4 fw-bold mb-3 text-gradient">Nisala Aloka Bandara</h1>
+          <p class="fs-5 text-secondary">
+            Senior DevOps Engineer | Consultant Enterprise Architect. Welcome to my personal cloud deployment portal showcasing my enterprise cloud initiatives, software architecture background, and deployment practices.
+          </p>
+          <div class="mt-4">
+            <a href="about.html" class="btn btn-gradient me-2">Explore Biography</a>
+            <a href="contact.html" class="btn btn-outline-secondary py-2 px-4 rounded-3 border-secondary-subtle">Get In Touch</a>
+          </div>
+        </div>
+        <div class="col-lg-5 text-center">
+          <div class="profile-image-container">
+            <img src="https://pbs.twimg.com/profile_images/1610734363767099392/wLKi1Xaq_400x400.jpg" alt="Nisala Aloka Bandara" class="profile-photo shadow-lg">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <section class="container my-5">
+    <h2 class="text-center mb-2 fw-bold">DevOps Automation Playground</h2>
+    <p class="text-center text-secondary mb-4">Click the actions below to simulate Kubernetes node fetches or website zip deployments on Azure App Service.</p>
+    
+    <div class="row justify-content-center">
+      <div class="col-lg-10">
+        <div class="terminal-container shadow">
+          <div class="terminal-header">
+            <div class="terminal-buttons">
+              <span class="terminal-btn btn-close"></span>
+              <span class="terminal-btn btn-minimize"></span>
+              <span class="terminal-btn btn-maximize"></span>
+            </div>
+            <div class="terminal-title">bash - visitor@nisalatp-cloud:~</div>
+            <div></div>
+          </div>
+          <div class="terminal-body" id="terminalBody">
+          </div>
+          <div class="terminal-control-panel">
+            <button class="terminal-action-btn" data-cmd="az-deploy">🚀 az deployment</button>
+            <button class="terminal-action-btn" data-cmd="ping-hosts">🌐 ping internal</button>
+            <button class="terminal-action-btn" data-cmd="docker-up">🐳 docker-compose up</button>
+            <button class="terminal-action-btn" data-cmd="k8s-get">☸️ kubectl get pods</button>
+            <button class="terminal-action-btn" data-cmd="clear">🧹 clear</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <main class="container my-5">
+    <h2 class="text-center mb-5 fw-bold">My Work & Expertise</h2>
+    <div class="row g-4">
+      <div class="col-md-4">
+        <div class="card glass-panel expert-card border-0">
+          <div class="card-body p-0">
+            <div class="expert-icon">☁️</div>
+            <h3 class="card-title h5 fw-bold mb-3">Cloud & DevOps</h3>
+            <p class="card-text text-secondary mb-4">
+              Leading DevOps enablement at Cloud Solutions International. Establishing robust CI/CD automation, infrastructure-as-code (IaC), and logging/observability frameworks.
+            </p>
+            <div class="mt-auto">
+              <span class="tech-badge">AWS</span>
+              <span class="tech-badge">Docker</span>
+              <span class="tech-badge">Kubernetes</span>
+              <span class="tech-badge">Terraform</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card glass-panel expert-card border-0">
+          <div class="card-body p-0">
+            <div class="expert-icon">🏛️</div>
+            <h3 class="card-title h5 fw-bold mb-3">Enterprise Architecture</h3>
+            <p class="card-text text-secondary mb-4">
+              Consulting Enterprise Architect for Aviha Group. Architecting digital transformation programs, defining roadmap states, and governing cloud-native integrations.
+            </p>
+            <div class="mt-auto">
+              <span class="tech-badge">Enterprise Integration</span>
+              <span class="tech-badge">Data Mesh</span>
+              <span class="tech-badge">API Design</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card glass-panel expert-card border-0">
+          <div class="card-body p-0">
+            <div class="expert-icon">🚀</div>
+            <h3 class="card-title h5 fw-bold mb-3">Enterprise Systems</h3>
+            <p class="card-text text-secondary mb-4">
+              Principal designer and developer of scale platforms such as Alivio HMS, JobDaddy.lk, and CSI's Corporate CPD-Portal (Cloud Academy).
+            </p>
+            <div class="mt-auto">
+              <span class="tech-badge">Laravel/PHP</span>
+              <span class="tech-badge">Python</span>
+              <span class="tech-badge">PostgreSQL</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="text-center">
+    <div class="container">
+      <p class="mb-2">&copy; 2026 Nisala Aloka Bandara. All Rights Reserved.</p>
+      <p class="small text-muted mb-0 mx-auto" style="max-width: 700px;">
+        Disclaimer: This website is a student project prototype developed for Distributed Cloud and IoT Systems (CS6006NM) - BSc Computer Science, London Metropolitan University to demonstrate static web hosting on Azure App Service.
+      </p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
